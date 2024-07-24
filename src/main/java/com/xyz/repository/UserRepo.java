@@ -9,6 +9,8 @@ public interface UserRepo extends JpaRepository<User, Integer> {
 	public User findByEmail(String emaill);
 
 
+
+
 	public User findByVerificationCode(String code);
 	
 }

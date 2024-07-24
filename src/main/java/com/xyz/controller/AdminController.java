@@ -32,6 +32,8 @@ public class AdminController {
 		}
 	}
 
+
+
 	@GetMapping("/profile")
 	public String profile() {
 		return "admin_profile";

@@ -25,6 +25,8 @@ public class User {
 
 	private boolean enable;
 
+
+
 	private String verificationCode;
  
 	public boolean isEnable() {

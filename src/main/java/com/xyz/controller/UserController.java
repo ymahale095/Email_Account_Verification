@@ -21,6 +21,8 @@ public class UserController {
 	private UserRepo userRepo;
 
 
+
+
 	@ModelAttribute
 	public void commonUser(Principal p, Model m) {
 		if (p != null) {

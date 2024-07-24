@@ -7,5 +7,7 @@ public class demo {
 
 
 		System.out.println(new BCryptPasswordEncoder().encode("1234"));
+
+
 	}
 }

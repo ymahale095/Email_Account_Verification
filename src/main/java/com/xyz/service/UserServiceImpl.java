@@ -37,6 +37,8 @@ public class UserServiceImpl implements UserService {
 		user.setPassword(password);
 		user.setRole("ROLE_USER");
 
+
+
 		user.setEnable(false);
 		user.setVerificationCode(UUID.randomUUID().toString());
 
